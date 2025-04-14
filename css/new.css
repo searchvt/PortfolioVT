@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "ChelaOne";
+  src: url(/fonts/ChelaOne-Regular.woff2);
+}
+@font-face {
+  font-family: "Chicle";
+  src: url(/fonts/Chicle-Regular.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+button:active {
+  outline: none;
+  box-shadow: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+body {
+  background-color: #B8E0D8;
+}
+body header {
+  position: relative;
+}
+body header .navbar-left {
+  position: absolute;
+  rotate: 270deg;
+  left: -1.5%;
+  top: 45px;
+  padding: 10px 30px;
+  background-color: #EBDF55;
+  box-shadow: 1px 1px 10px 1px #a78365;
+}
+body header .navbar-left a {
+  font-size: 22px;
+  font-family: "ChelaOne";
+  color: #F1E8DF;
+  text-shadow: 2px 2px 4px #6b5447;
+}
+body header .navbar-right {
+  position: absolute;
+  rotate: 270deg;
+  right: -6%;
+  top: 112px;
+  background-color: #EBDF55;
+  padding: 10px 30px;
+  box-shadow: 1px 1px 10px 1px #a78365;
+}
+body header .navbar-right a {
+  text-align: center;
+  font-size: 22px;
+  font-family: "ChelaOne";
+  color: #F1E8DF;
+  margin: 4px;
+  text-shadow: 2px 2px 4px #6b5447;
+}
+body .heroshoot {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body .heroshoot .hero-img {
+  position: absolute;
+}
+body .heroshoot h5 {
+  position: absolute;
+  font-family: "ChelaOne";
+  color: #A47155;
+  font-size: 28px;
+  top: 210px;
+  padding: 1%;
+  margin: 1px;
+}
+body .heroshoot .fe-info {
+  position: absolute;
+  font-family: "Chicle";
+  color: #A47155;
+  font-size: 16px;
+  top: 280px;
+  padding: 1%;
+  margin: 1px;
+}
+body .heroshoot .ds-title {
+  position: absolute;
+  font-family: "ChelaOne";
+  color: #A47155;
+  font-size: 25px;
+  top: 450px;
+  padding: 1%;
+  margin: 1px;
+}
+body .heroshoot .ds-info {
+  position: absolute;
+  font-family: "Chicle";
+  color: #A47155;
+  font-size: 16px;
+  top: 480px;
+  padding: 1%;
+  margin: 1px;
+}
+body .about {
+  position: relative;
+}/*# sourceMappingURL=new.css.map */

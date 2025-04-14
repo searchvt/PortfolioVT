@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "ChelaOne";
+  src: url(/fonts/ChelaOne-Regular.woff2);
+}
+@font-face {
+  font-family: "Chicle";
+  src: url(/fonts/Chicle-Regular.woff2);
+}
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+body {
+  background-color: #B8E0D8;
+}
+body header {
+  position: relative;
+}
+body header .navbar-left {
+  position: absolute;
+  rotate: 270deg;
+  left: -1.5%;
+  top: 45px;
+  padding: 10px 30px;
+  background-color: #EBDF55;
+  box-shadow: 1px 1px 10px 1px #a78365;
+}
+body header .navbar-left a {
+  font-size: 22px;
+  font-family: "ChelaOne";
+  color: #F1E8DF;
+  text-shadow: 2px 2px 4px #6b5447;
+}
+body header .navbar-right {
+  position: absolute;
+  rotate: 270deg;
+  right: -6%;
+  top: 112px;
+  background-color: #EBDF55;
+  padding: 10px 30px;
+  box-shadow: 1px 1px 10px 1px #a78365;
+}
+body header .navbar-right a {
+  text-align: center;
+  font-size: 22px;
+  font-family: "ChelaOne";
+  color: #F1E8DF;
+  margin: 4px;
+  text-shadow: 2px 2px 4px #6b5447;
+}
+body .heroshoot {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+body .heroshoot .hero-img {
+  position: relative;
+}
+body .heroshoot h5 {
+  position: absolute;
+  font-family: "ChelaOne";
+  color: #A47155;
+  font-size: 28px;
+  top: 220px;
+  padding: 1%;
+  margin: 1px;
+}
+body .heroshoot .fe-info {
+  position: absolute;
+  font-family: "Chicle";
+  color: #A47155;
+  font-size: 16px;
+  top: 280px;
+  padding: 1%;
+  margin: 1px;
+}
+body .heroshoot .ds-title {
+  position: absolute;
+  font-family: "ChelaOne";
+  color: #A47155;
+  font-size: 25px;
+  top: 450px;
+  padding: 1%;
+  margin: 1px;
+}
+body .heroshoot .ds-info {
+  position: absolute;
+  font-family: "Chicle";
+  color: #A47155;
+  font-size: 16px;
+  top: 480px;
+  padding: 1%;
+  margin: 1px;
+}
+body .about {
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+}
+body .about .bg_img {
+  position: absolute;
+  left: 1%;
+}
+body .about .bg_about {
+  position: absolute;
+  right: 4%;
+}
+body .about .personal_img {
+  position: absolute;
+  left: 12%;
+}
+body .skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding-bottom: 30px;
+}
+body .skills P {
+  position: absolute;
+  font-family: "ChelaOne";
+  color: #A47155;
+  font-size: 40px;
+}
+body .title-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  position: relative;
+  padding-left: 100px;
+}
+body .title-project P {
+  position: absolute;
+  font-family: "ChelaOne";
+  color: #A47155;
+  font-size: 60px;
+  padding-left: 100px;
+}
+body .projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  position: relative;
+}
+body footer .contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  position: relative;
+  padding-left: 100px;
+}
+body footer .contact-info .cont-tit {
+  font-size: 70px;
+  font-family: "ChelaOne";
+  color: #F1E8DF;
+  font-weight: 500;
+  text-shadow: #A47155;
+  rotate: -5deg;
+}
+body footer .contact-info .github {
+  position: absolute;
+  padding-left: 20%;
+}
+body footer .contact-info .linkedin {
+  position: absolute;
+  padding-left: 20%;
+}
+body footer .contact-info .gmail {
+  position: absolute;
+  padding-left: 20%;
+}
+body footer .contact-news {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+  position: relative;
+  padding-bottom: 30px;
+}
+body footer .contact-news form {
+  position: relative;
+  right: 40%;
+}
+body footer .contact-news form input {
+  position: absolute;
+  background-color: #F1E8DF;
+  font-family: "ChelaOne";
+  color: #A47155;
+}
+body footer .contact-news form input:focus {
+  background-color: #EBDF55;
+  width: 250px;
+}
+body footer .contact-news form label {
+  font-family: "ChelaOne";
+  color: #A47155;
+  gap: 100px;
+}/*# sourceMappingURL=main.css.map */

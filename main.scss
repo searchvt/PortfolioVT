@@ -1,0 +1,293 @@
+// Fonts
+@font-face {
+	font-family: "ChelaOne";
+	src: url(/fonts/ChelaOne-Regular.woff2);
+}
+
+@font-face {
+	font-family: "Chicle";
+	src: url(/fonts/Chicle-Regular.woff2);
+}
+
+// Variables
+$background-color: #B8E0D8;
+$color-brown: #A47155;
+$color-yellow: #EBDF55;
+$color-cream: #F1E8DF;
+
+a {
+	color: initial;
+	text-decoration: none;
+}
+
+body {
+	background-color: #B8E0D8;
+
+	header {
+		position: relative;
+
+		.navbar-left {
+			position: absolute;
+			rotate: 270deg;
+			left: -1.5%;
+			top: 45px;
+			padding: 10px 30px;
+			background-color: $color-yellow;
+			box-shadow: 1px 1px 10px 1px #a78365;
+
+			a {
+				font-size: 22px;
+				font-family: "ChelaOne";
+				color: $color-cream;
+				text-shadow: 2px 2px 4px #6b5447;
+			}
+		}
+
+		.navbar-right {
+			position: absolute;
+			rotate: 270deg;
+			right: -6%;
+			top: 112px;
+			background-color: $color-yellow;
+			padding: 10px 30px;
+			box-shadow: 1px 1px 10px 1px #a78365;
+
+			a {
+				text-align: center;
+				font-size: 22px;
+				font-family: "ChelaOne";
+				color: $color-cream;
+				margin: 4px;
+				text-shadow: 2px 2px 4px #6b5447;
+			}
+		}
+
+	}
+
+	.heroshoot {
+		display: flex;
+		justify-content: center;
+		position: relative;
+
+		.hero-img {
+			position: relative;
+		}
+
+		h5 {
+			position: absolute;
+			font-family: 'ChelaOne';
+			color: $color-brown;
+			font-size: 28px;
+			top: 220px;
+			padding: 1%;
+			margin: 1px;
+
+		}
+
+		.fe-info {
+			position: absolute;
+			font-family: 'Chicle';
+			color: $color-brown;
+			font-size: 16px;
+			top: 280px;
+			padding: 1%;
+			margin: 1px;
+		}
+
+		.ds-title {
+			position: absolute;
+			font-family: 'ChelaOne';
+			color: $color-brown;
+			font-size: 25px;
+			top: 450px;
+			padding: 1%;
+			margin: 1px;
+		}
+
+		.ds-info {
+			position: absolute;
+			font-family: 'Chicle';
+			color: $color-brown;
+			font-size: 16px;
+			top: 480px;
+			padding: 1%;
+			margin: 1px;
+		}
+
+		// .logo {
+		// 	position:absolute;
+		// 	justify-content: center;
+		// }
+	}
+
+	.about {
+		position: relative;
+		display: flex;
+		margin-top: 50px;
+
+		.bg_img {
+			position: absolute;
+			left: 1%;
+		}
+
+		.bg_about {
+			position: absolute;
+			right: 4%;
+		}
+
+		.personal_img {
+			position: absolute;
+			left: 12%;
+			// top: 50px;
+		}
+
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		position: relative;
+		// top: 800px;
+		padding-bottom: 30px;
+
+		P {
+			position: absolute;
+			font-family: 'ChelaOne';
+			color: #A47155;
+			font-size: 40px;
+			// top: 80px;
+		}
+	}
+
+	.title-project {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		flex-wrap: wrap;
+		position: relative;
+		// top: 850px;
+		padding-left: 100px;
+
+		P {
+			position: absolute;
+			font-family: 'ChelaOne';
+			color: #A47155;
+			font-size: 60px;
+			// top: -20px;
+			padding-left: 100px;
+		}
+	}
+
+	.projects {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 50px;
+		position: relative;
+		// top: 900px;
+
+	}
+
+
+	footer {
+		.contact-info {
+			display: flex;
+			flex-direction: row;
+			justify-content: left;
+			flex-wrap: wrap;
+			position: relative;
+			// top: 1350px;
+			padding-left: 100px;
+
+			.cont-tit {
+				font-size: 70px;
+				font-family: "ChelaOne";
+				color: #F1E8DF;
+				font-weight: 500;
+				text-shadow: #A47155;
+				rotate: -5deg;
+			}
+
+			.github {
+				position: absolute;
+				// top: 260px;
+				padding-left: 20%;
+			}
+
+			.linkedin {
+				position: absolute;
+				// top: 360px;
+				padding-left: 20%;
+			}
+
+			.gmail {
+				position: absolute;
+				// top: 460px;
+				padding-left: 20%;
+			}
+		}
+
+		.contact-news {
+			display: flex;
+			flex-direction: row;
+			justify-content: right;
+			flex-wrap: wrap;
+			position: relative;
+			// top: 1200px;
+			padding-bottom: 30px;
+			form {
+				position: relative;
+				right: 40%;
+			input {
+				position: absolute;
+				background-color: $color-cream;
+				font-family: "ChelaOne";
+				color: $color-brown;
+				&:focus {
+					// position: absolute;
+					background-color:$color-yellow;
+					width: 250px;
+				}
+
+			}
+			label {
+				font-family: "ChelaOne";
+				color: $color-brown;
+			gap: 100px;
+			}
+		}
+
+			// .name {
+			// 	position: absolute;
+			// 	font-size: 30px;
+			// 	font-family: "ChelaOne";
+			// 	color: #A47155;
+			// 	top: 55px;
+			// 	padding-right: 33%;
+			// }
+
+			// .mail {
+			// 	position: absolute;
+			// 	font-size: 30px;
+			// 	font-family: "ChelaOne";
+			// 	color: #A47155;
+			// 	top: 130px;
+			// 	padding-right: 34%;
+			// }
+
+			// .ask {
+			// 	position: absolute;
+			// 	font-size: 30px;
+			// 	font-family: "ChelaOne";
+			// 	color: #A47155;
+			// 	top: 200px;
+			// 	padding-right: 34%;
+			// }
+		}
+
+	}
+
+}
