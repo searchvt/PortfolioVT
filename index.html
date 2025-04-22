@@ -4,24 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Вероника Тасова</title>
-	<!-- <link rel="stylesheet" href="css/main.css"> -->
+	<title>Veronika Tasova</title>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 	<header>
-		<div class="navbar-left">
+		<div class="navbar-left effect">
 			<a href="#">HOME</a>
 		</div>
-		<div class="navbar-right">
-			<a href="#about1">ABOUT</a>
+		<div class="navbar-right effect">
+			<a href="#about">ABOUT</a>
 			<a>|</a>
-			<a href="#proj">PROJECTS</a>
+			<a href="#project">PROJECTS</a>
 		</div>
+		<!-- <input type="datetime-local" id="input-datetime"> -->
 	</header>
 	<main>
 		<section class="heroshoot">
+
 			<img class="hero-img" src="images/GROWTH.png" alt="growth" width="1100px">
 			<!-- <img clas="logo" src="images/Logo.png" alt="logo"> -->
 			<h5>FRONT-END DEVELOPER</h5>
@@ -30,52 +31,87 @@
 			<p class="ds-title">DATA SCIENTIST</p>
 			<p class="ds-info">FIND LIVE IN DATA</p>
 		</section>
-		<section class="about" id="about1">
+
+		<section id="about" class="about">
 			<img class="bg_img" src="images/BackgroundImg.png" alt="BackgroundImg" width="520px">
-			<img class="bg_about" src="images/AboutBackground.png" alt="BackgroundAbout" width="770px">
-			<img class="personal_img" src="images/VT-img.PNG" alt="VT" width="280px">
+			<img class="personal_img" src="images/imgChoisefliped.PNG" alt="VT" width="240px">
+			<div class="about_info">
+				<img class="bg_about" src="images/AboutBackground.png" alt="BackgroundAbout" width="770px">
+				<a href="Redpanda.pdf" target="_blank" title="Open CV" class="btn_cv">
+					<img src="images/btn.png" alt="btn" width="80px">
+				</a>
+			</div>
+
 		</section>
 		<section class="skills">
+			<div class="skills-constainer">
+				<img src="images/html.png" alt="html">
+				<img src="images/css.png" alt="css">
+				<img src="images/js.png" alt="js">
+				<img src="images/botstrap.png" alt="bottstrap">
+				<img src="images/Figma1.png" alt="figma">
+				<img src="images/React.png" alt="react">
+			</div>
 			<img src="images/Skills bg.png" alt="skills" width="200px">
 			<p>SKILLS</p>
 		</section>
-		<section class="title-project">
-			<img src="images/Projects Bg.png" alt="Projcet bg" width="300px">
+		<section class="title-project" id="project">
+			<img src="images/Projects Bg.png" alt="Projcet bg" height="130px" width="320px">
 			<p>PROJECTS</p>
 		</section>
-		<section class="projects" id="proj">
-			<img class="project1" src="images/Projects.png" alt="Project1" width="450px">
-			<img class="project2" src="images/Projects.png" alt="Project2" width="450px">
-			<img class="project3" src="images/Projects.png" alt="Project3" width="450px">
-			<img class="project4" src="images/Projects.png" alt="Project4" width="450px">
-
+		<section class="projects">
+			<span class="project">
+				<img class="p-bg" src="images/Projects.png" alt="Project1" width="450px">
+				<img class="p-info" src="images/p1 heroshot.png" alt="Project1" width="450px">
+			</span>
+			<span class="project">
+				<img class="p-bg" src="images/Projects.png" alt="Project2" width="450px">
+				<img class="p-info" src="images/p2 heroshot.png" alt="Project2" width="450px">
+			</span>
+			<span class="project">
+				<img class="p-bg" src="images/Projects.png" alt="Project3" width="450px">
+				<img class="p-info" src="images/p1 footer.png" alt="Project3" width="450px">
+			</span>
+			<span class="project">
+				<img class="p-bg" src="images/Projects.png" alt="Project4" width="450px">
+				<img class="p-info" src="images/p2 top.png" alt="Project4" width="450px">
+			</span>
 		</section>
-
 	</main>
 
 	<footer>
 		<div class="contact-info">
-			<img src="images/Contcat Phone.png" alt="contact-info" width="100px">
+			<img src="images/Contcat Phone.png" alt="contact-info" height="280px">
 			<p class="cont-tit">ONTACT</p>
-			<img class="github" src="images/Github icon.png" alt="Github" width="80px">
-			<img class="linkedin" src="images/Linkedin.png" alt="Linkedin" width="80px">
-			<img class="gmail" src="images/Gmail.png" alt="Gmail" width="80px">
+			<div class="social">
+				<a href="https://github.com/searchvt" target="_blank">
+					<img class="github" src="images/Github icon.png" alt="Github" width="60px">
+				</a>
+				<a href="https://www.linkedin.com/in/veronika-tasova/" target="_blank">
+					<img class="linkedin" src="images/Linkedin.png" alt="Linkedin" width="60px">
+				</a>
+				<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+					<img class="gmail" src="images/Gmail.png" alt="Gmail" width="60px">
+				</a>
+
+			</div>
 		</div>
 		<div class="contact-news">
-			<img src="images/Contact newsletter.png" alt="contact-newsletter" width="600px">
-			<form>
-				<label for="name">Name: </label><br>
-				<input id="name" name="name" type="text" /><br>
+			<img src="images/Contact newsletter.png" alt="contact-newsletter" width="700px">
+			<form action="mailto:vtaseva1@gmail.com" method="post" enctype="text/plain">
+				<label for="name">Name:
+					<input id="name" name="name" type="text" />
+				</label>
+				<label for="email">Email:
+					<input id="email" name="email" type="email" />
+				</label>
+				<label for="ask">Ask:
+					<input id="ask" name="ask" type="text" />
+				</label>
+				<input class="subm" type="submit" value="Submit">
 
-				<label for="email">Email: </label><br>
-				<input id="email" name="email" type="email" /><br>
-
-				<label for="ask">Ask: </label><br>
-				<input id="ask" name="ask" type="text" />
 			</form>
-			<!-- <p class="name">Name</p>
-			<p class="mail">Email</p>
-			<p class="ask">Ask</p> -->
+
 		</div>
 	</footer>
 

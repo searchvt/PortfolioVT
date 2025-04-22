@@ -23,6 +23,9 @@ a {
 body {
 	background-color: #B8E0D8;
 
+
+
+
 	header {
 		position: relative;
 
@@ -34,7 +37,41 @@ body {
 			padding: 10px 30px;
 			background-color: $color-yellow;
 			box-shadow: 1px 1px 10px 1px #a78365;
-
+			z-index: 5;}
+// ------------
+.effect{
+	cursor:pointer;
+		border-top-right-radius:10px;
+		border-bottom-left-radius:10px;
+		transition:all 1s;
+		&:after, &:before{
+			content:" ";
+			width:10px;
+			height:10px;
+			position:absolute;
+			// border :0px solid $color-brown;
+			transition:all 1s;
+			}
+		&:after{
+			top:-1px;
+			left:-1px;
+			border-top:5px solid $color-cream;
+			border-left:5px solid $color-cream;
+		}
+		&:before{
+			bottom:-1px;
+			right:-1px;
+			border-bottom:5px solid $color-cream;
+			border-right:5px solid $color-cream;
+		}
+		&:hover{
+			border-top-right-radius:0px;
+		border-bottom-left-radius:0px;
+			&:before,&:after{
+				width:100%;
+				height:100%;
+			}
+		}
 			a {
 				font-size: 22px;
 				font-family: "ChelaOne";
@@ -51,6 +88,7 @@ body {
 			background-color: $color-yellow;
 			padding: 10px 30px;
 			box-shadow: 1px 1px 10px 1px #a78365;
+			z-index: 5;
 
 			a {
 				text-align: center;
@@ -62,6 +100,13 @@ body {
 			}
 		}
 
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		z-index: 2;
 	}
 
 	.heroshoot {
@@ -123,23 +168,42 @@ body {
 	.about {
 		position: relative;
 		display: flex;
+		justify-content:flex-end;
 		margin-top: 50px;
-
+		height: 100%;
 		.bg_img {
 			position: absolute;
 			left: 1%;
 		}
-
-		.bg_about {
-			position: absolute;
-			right: 4%;
-		}
-
 		.personal_img {
 			position: absolute;
-			left: 12%;
-			// top: 50px;
+			left: 10%;
+			margin-top: 1%;
 		}
+.about_info{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	.btn_cv{
+		position: absolute;
+		margin-bottom: 8%;
+		margin-left: 10%;
+		background: none;
+		border: none;
+		transition: width 2s;
+		img{
+			&:hover {
+				cursor: pointer;
+				opacity: 0.9;
+				width: 85px;
+			}
+		}
+		}
+
+}
+
 
 	}
 
@@ -149,15 +213,24 @@ body {
 		justify-content: center;
 		flex-wrap: wrap;
 		position: relative;
-		// top: 800px;
-		padding-bottom: 30px;
+		margin-top: 115px;
+.skills-container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-direction: column;
 
+
+}
 		P {
 			position: absolute;
 			font-family: 'ChelaOne';
 			color: #A47155;
 			font-size: 40px;
-			// top: 80px;
+			align-self: anchor-center;
+			margin-top: 6%;
+			margin-right: 1.3%;
+			text-align: center;
 		}
 	}
 
@@ -167,40 +240,66 @@ body {
 		justify-content: left;
 		flex-wrap: wrap;
 		position: relative;
-		// top: 850px;
+		margin-top: 80px;
 		padding-left: 100px;
+		margin-bottom: 70px;
 
 		P {
 			position: absolute;
 			font-family: 'ChelaOne';
 			color: #A47155;
 			font-size: 60px;
-			// top: -20px;
+			margin-top: 1%;
 			padding-left: 100px;
+
 		}
 	}
 
 	.projects {
 		display: flex;
-		flex-direction: row;
-		justify-content: center;
+		flex-direction: column;
 		flex-wrap: wrap;
-		gap: 50px;
+		align-content: center;
 		position: relative;
-		// top: 900px;
+		margin-bottom: 300px;
+
+		.project {
+			position: relative;
+			min-width: 450px;
+			min-height: 290px;
+			margin: 20px;
+			position: relative;
+			align-items: center;
+		}
+		.p-bg{
+			position: absolute;
+			z-index: 1;
+		}
+		.p-info{
+			position: absolute;
+			z-index: 3;
+			justify-self: anchor-center;
+			align-self: anchor-center;
+			max-width: 70%;
+			min-height: 70%;
+		}
 
 	}
 
 
 	footer {
+		display: flex;
+		justify-content: space-around;
+
 		.contact-info {
 			display: flex;
-			flex-direction: row;
-			justify-content: left;
-			flex-wrap: wrap;
-			position: relative;
-			// top: 1350px;
-			padding-left: 100px;
+			// position: relative;
+			// justify-content: space-around;
+			// img{
+			// 	// rotate: 150deg;
+			// }
+
+
 
 			.cont-tit {
 				font-size: 70px;
@@ -208,84 +307,77 @@ body {
 				color: #F1E8DF;
 				font-weight: 500;
 				text-shadow: #A47155;
-				rotate: -5deg;
+				rotate: -11deg;
+				z-index: 2;
 			}
 
-			.github {
-				position: absolute;
-				// top: 260px;
-				padding-left: 20%;
-			}
-
-			.linkedin {
-				position: absolute;
-				// top: 360px;
-				padding-left: 20%;
-			}
-
-			.gmail {
-				position: absolute;
-				// top: 460px;
-				padding-left: 20%;
+			.social {
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+				margin-top:3%;
+			justify-content: flex-end;
+			padding-bottom: 50px;
+		margin-left: -25%;
+		z-index: 5;
 			}
 		}
 
 		.contact-news {
 			display: flex;
-			flex-direction: row;
-			justify-content: right;
-			flex-wrap: wrap;
+			align-items: center;
 			position: relative;
-			// top: 1200px;
 			padding-bottom: 30px;
 			form {
-				position: relative;
-				right: 40%;
-			input {
 				position: absolute;
-				background-color: $color-cream;
-				font-family: "ChelaOne";
-				color: $color-brown;
-				&:focus {
-					// position: absolute;
-					background-color:$color-yellow;
-					width: 250px;
+				width: 400px;
+				height: 290px;
+
+
+				label {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					background-color: none;
+					font-family: "ChelaOne";
+					color: $color-brown;
+					border: none;
+					font-size: 25px;
+					input {
+						display: flex;
+						flex-direction: column;
+						text-align: start;
+						width: 260px;
+						margin-left: 10%;
+						margin-bottom: 5%;
+						border: 0;
+						height: 35px;
+						background-color:transparent;
+						font-family: "ChelaOne";
+						color: $color-brown;
+					&:hover,  &:focus, &:focus-visible {
+							width: 260px;
+							border-style:none;
+							background-color:transparent;
+						}
+
 				}
+				#ask{
+				width: 270px;
+				height: 80px;
+				margin-top: 2%;
+			}
 
 			}
-			label {
-				font-family: "ChelaOne";
-				color: $color-brown;
-			gap: 100px;
+			.subm{
+				display: flex;
+				position: absolute;
+				justify-self: center;
+
 			}
-		}
 
-			// .name {
-			// 	position: absolute;
-			// 	font-size: 30px;
-			// 	font-family: "ChelaOne";
-			// 	color: #A47155;
-			// 	top: 55px;
-			// 	padding-right: 33%;
-			// }
+			}
 
-			// .mail {
-			// 	position: absolute;
-			// 	font-size: 30px;
-			// 	font-family: "ChelaOne";
-			// 	color: #A47155;
-			// 	top: 130px;
-			// 	padding-right: 34%;
-			// }
-
-			// .ask {
-			// 	position: absolute;
-			// 	font-size: 30px;
-			// 	font-family: "ChelaOne";
-			// 	color: #A47155;
-			// 	top: 200px;
-			// 	padding-right: 34%;
-			// }
 		}
 
 	}
