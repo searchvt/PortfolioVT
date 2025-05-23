@@ -17,251 +17,51 @@ body {
   background-color: #B8E0D8;
 }
 @media (max-width: 767.98px) {
-  body .navbar-left a,
+  body .navbar-left a {
+    font-size: 18px !important;
+    left: 10dvw !important;
+  }
   body .navbar-right a {
     font-size: 18px !important;
   }
-  body .heroshoot .year {
-    font-weight: 400 !important;
-    font-size: 12px;
+  body .about .bg_about {
+    width: 95vw;
+    height: 350px;
   }
-  body .heroshoot .hero-img {
-    max-width: 400px !important;
+  body .about .about_title {
+    bottom: 200px !important;
+    font-size: 15px !important;
   }
-  body .heroshoot h5,
-  body .heroshoot .ds-title {
-    font-size: 18px !important;
-    top: 120px !important;
-    padding: 1%;
-    margin: 1px;
-  }
-  body .heroshoot .fe-info,
-  body .heroshoot .ds-info {
-    font-size: 12px !important;
-    top: 150px !important;
-  }
-  body .heroshoot .ds-title {
-    top: 240px !important;
-  }
-  body .heroshoot .ds-info {
-    top: 260px !important;
-  }
-  body .heroshoot .logo {
-    max-width: 120px;
+}
+@media (max-width: 1189.98px) {
+  body .navbar-left a,
+  body .navbar-right a {
+    font-size: 20px !important;
   }
   body .about {
     flex-direction: column;
-    align-items: center !important;
-    justify-content: center !important;
   }
   body .about .personal_img {
     left: 34% !important;
-    max-width: 220px;
-  }
-  body .about .btn_cv {
-    margin-bottom: 5% !important;
-    margin-left: 6% !important;
-  }
-  body .about .about_title {
-    padding: 1px;
-    top: -58% !important;
-    left: 15% !important;
-  }
-  body .about .about_me {
-    justify-self: center !important;
-    padding: 6% 16% 1% 30% !important;
-    font-size: 15px !important;
-  }
-  body .skills {
-    justify-items: center !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-  }
-  body .skills .skills-container {
-    gap: 0.5% !important;
-  }
-  body .skills p {
-    font-size: 20px !important;
-    justify-self: center !important;
+    max-width: 40vw;
   }
 }
 @media (max-width: 991.98px) {
-  body .navbar-left a,
-  body .navbar-right a {
-    font-size: 24px !important;
+  body .navbar-left {
+    left: -90dww;
+    padding: 0px 1px;
   }
-  body .about {
-    flex-direction: column;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-  body .about .personal_img {
-    left: 34% !important;
-    max-width: 220px;
-  }
-  body .about .btn_cv {
-    margin-bottom: 5% !important;
-    margin-left: 6% !important;
-  }
-  body .about .about_title {
-    padding: 1px;
-    top: -58% !important;
-    left: 15% !important;
-  }
-  body .about .about_me {
-    justify-self: center !important;
-    padding: 6% 16% 1% 30% !important;
-    font-size: 15px !important;
-  }
-  body .skills {
-    justify-items: center !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-  }
-  body .skills .skills-container {
-    gap: 0.5% !important;
-  }
-  body .skills p {
-    font-size: 20px !important;
-    justify-self: center !important;
-  }
-}
-@media (max-width: 1023.98px) {
-  body .navbar-left a,
-  body .navbar-right a {
-    font-size: 24px !important;
-  }
-  body .heroshoot .year {
-    font-weight: 400 !important;
-    font-size: 12px;
-  }
-  body .heroshoot .hero-img {
-    max-width: 600px;
-  }
-  body .heroshoot h5,
-  body .heroshoot .ds-title {
-    font-size: 18px !important;
-    top: 120px !important;
-    padding: 1%;
-    margin: 1px;
-  }
-  body .heroshoot .fe-info,
-  body .heroshoot .ds-info {
-    font-size: 12px !important;
-    top: 150px !important;
-  }
-  body .heroshoot .ds-title {
-    top: 240px !important;
-  }
-  body .heroshoot .ds-info {
-    top: 260px !important;
-  }
-  body .heroshoot .logo {
-    max-width: 120px;
-  }
-  body .about {
-    flex-direction: column;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-  body .about .personal_img {
-    left: 34% !important;
-    max-width: 220px;
-  }
-  body .about .btn_cv {
-    margin-bottom: 5% !important;
-    margin-left: 6% !important;
-  }
-  body .about .about_title {
-    padding: 1px;
-    top: -58% !important;
-    left: 15% !important;
-  }
-  body .about .about_me {
-    justify-self: center !important;
-    padding: 6% 16% 1% 30% !important;
-    font-size: 15px !important;
-  }
-  body .skills {
-    justify-items: center !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-  }
-  body .skills .skills-container {
-    gap: 0.5% !important;
-  }
-  body .skills p {
-    font-size: 20px !important;
-    justify-self: center !important;
-  }
-}
-@media (max-width: 1149.98px) {
-  body .navbar-left a,
-  body .navbar-right a {
-    font-size: 20px !important;
-  }
-  body .heroshoot .year {
-    font-weight: 400 !important;
-    font-size: 12px;
-  }
-  body .heroshoot .hero-img {
-    max-width: 750px;
-  }
-  body .heroshoot h5,
-  body .heroshoot .ds-title {
-    font-size: 20px !important;
-    top: 130px !important;
-    padding: 1%;
-    margin: 1px;
-  }
-  body .heroshoot .fe-info,
-  body .heroshoot .ds-info {
+  body .navbar-left a {
     font-size: 16px !important;
-    top: 200px !important;
-  }
-  body .heroshoot .ds-title {
-    top: 300px !important;
-  }
-  body .heroshoot .ds-info {
-    top: 320px !important;
-  }
-  body .heroshoot .logo {
-    max-width: 120px;
-  }
-  body .about {
-    flex-direction: column;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-  body .about .personal_img {
-    left: 34% !important;
-    max-width: 220px;
-  }
-  body .about .btn_cv {
-    margin-bottom: 5% !important;
-    margin-left: 6% !important;
-  }
-  body .about .about_title {
     padding: 1px;
-    top: -58% !important;
-    left: 15% !important;
   }
-  body .about .about_me {
-    justify-self: center !important;
-    padding: 6% 16% 1% 30% !important;
-    font-size: 15px !important;
+  body .navbar-right {
+    right: -12dvh !important;
+    padding: 0px 1px;
   }
-  body .skills {
-    justify-items: center !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-  }
-  body .skills .skills-container {
-    gap: 0.5% !important;
-  }
-  body .skills p {
-    font-size: 20px !important;
-    justify-self: center !important;
+  body .navbar-right a {
+    font-size: 16px !important;
+    padding: 1px;
   }
 }
 body .home-btn {
@@ -295,6 +95,19 @@ body .home-btn a:hover {
   border-width: 0.4ch;
   border-style: solid;
 }
+@media (max-width: 479.98px) {
+  body .home-btn {
+    left: -6% !important;
+  }
+}
+@media (max-width: 814.98px) {
+  body .home-btn {
+    left: -3.8%;
+  }
+  body .home-btn a {
+    font-size: 15px;
+  }
+}
 body header {
   position: relative;
 }
@@ -302,7 +115,7 @@ body header .navbar-left,
 body header .navbar-right {
   position: absolute;
   rotate: 270deg;
-  top: 45px;
+  top: 18px;
   padding: 8px 1px;
   background-color: #EBDF55;
   box-shadow: 1px 1px 10px 1px #a78365;
@@ -330,8 +143,8 @@ body header .navbar-right a:hover {
   border-style: solid;
 }
 body header .navbar-right {
-  right: -5% !important;
-  top: 112px !important;
+  right: -5dvw;
+  top: 16dvh;
 }
 body main {
   display: flex;
@@ -341,12 +154,12 @@ body main {
   min-width: -moz-fit-content;
   min-width: fit-content;
 }
-body .heroshoot {
+body main .heroshoot {
   display: flex;
   justify-content: center;
   position: relative;
 }
-body .heroshoot .progress {
+body main .heroshoot .progress {
   background-color: #A47155;
   border-radius: 21px;
   position: absolute;
@@ -357,8 +170,8 @@ body .heroshoot .progress {
   margin-top: 4%;
   z-index: 8;
 }
-body .heroshoot .progress-one,
-body .heroshoot .progress-two {
+body main .heroshoot .progress-one,
+body main .heroshoot .progress-two {
   background: #EBDF55;
   box-shadow: 0 3px 3px -5px #11110f, 0 2px 5px #0d0d0a;
   border-radius: 20px;
@@ -374,8 +187,8 @@ body .heroshoot .progress-two {
   opacity: 0.01;
   transition: 2s ease 0.3s;
 }
-body .heroshoot .progress-one .year,
-body .heroshoot .progress-two .year {
+body main .heroshoot .progress-one .year,
+body main .heroshoot .progress-two .year {
   z-index: 12;
   justify-self: flex-end;
   padding: 3px;
@@ -386,109 +199,208 @@ body .heroshoot .progress-two .year {
   box-shadow: 0 3px 3px -5px #2b2b2a, 0 2px 5px #2c2c2a;
   left: 20px;
 }
-body .heroshoot .progress-two {
+body main .heroshoot .progress-two {
   z-index: 10;
   height: 3%;
 }
-body .heroshoot .hero-img {
+body main .heroshoot .hero-img {
   position: relative;
   filter: drop-shadow(-10px 10px 5px rgb(99, 81, 57));
+  max-width: 75vw;
 }
-body .heroshoot h5,
-body .heroshoot .ds-title {
+body main .heroshoot .logo {
   position: absolute;
-  font-family: "ChelaOne";
-  color: #A47155;
-  font-size: 27px;
-  top: 220px;
-  padding: 1%;
-  margin: 1px;
+  top: 15px;
+  max-width: 14vw;
 }
-body .heroshoot .fe-info,
-body .heroshoot .ds-info {
-  position: absolute;
-  font-family: "Chicle";
-  color: #A47155;
-  font-size: 19px;
-  top: 280px;
-  padding: 1%;
-  margin: 1px;
+body main .heroshoot .logo {
+  top: 5px;
 }
-body .heroshoot .ds-title {
-  top: 450px;
-}
-body .heroshoot .ds-info {
-  top: 480px;
-}
-body .heroshoot .logo {
-  position: absolute;
-}
-@media (max-width: 991.98px) {
-  body .heroshoot .year {
-    font-weight: 400 !important;
-    font-size: 12px;
-  }
-  body .heroshoot .hero-img {
-    max-width: 585px !important;
-  }
-  body .heroshoot h5,
-  body .heroshoot .ds-title {
-    font-size: 18px !important;
-    top: 110px !important;
-    padding: 1%;
-    margin: 1px;
-  }
-  body .heroshoot .fe-info,
-  body .heroshoot .ds-info {
-    font-size: 11.8px !important;
-    top: 140px !important;
-  }
-  body .heroshoot .ds-title {
-    top: 230px !important;
-  }
-  body .heroshoot .ds-info {
-    top: 250px !important;
-  }
-  body .heroshoot .logo {
-    max-width: 120px;
-  }
-}
-body .about {
+body main .about {
   position: relative;
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 50px;
+  margin-top: 10vh;
   height: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 10vh;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
 }
-body .about .about-img .personal_img {
+@media (max-width: 575.98px) {
+  body main .about .about-img .bg_img {
+    width: 80vw;
+  }
+}
+body main .about .about-img .personal_img {
   position: absolute;
   filter: drop-shadow(-10px 10px 5px rgb(71, 63, 52));
-  left: 15%;
+  left: 16%;
+  width: 220px;
   margin-top: 1%;
 }
-body .about .about_info {
+@media (max-width: 575.98px) {
+  body main .about .about-img .personal_img {
+    padding-left: 0.1%;
+  }
+}
+body main .about .about_info {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  height: 350px;
 }
-body .about .about_info .btn_cv {
+body main .about .about_info .myBtnAbout {
   position: absolute;
-  margin-bottom: 8%;
-  margin-left: 10%;
   background: none;
   border: none;
+  padding-bottom: 42px;
+  padding-left: 35px;
   transition: width 2s;
   filter: drop-shadow(-5px 2px 4px rgb(71, 63, 52));
+  z-index: 10;
 }
-body .about .about_info .btn_cv img:hover {
+body main .about .about_info .myBtnAbout:hover {
   cursor: pointer;
   opacity: 0.9;
-  width: 85px;
+  width: 75px;
   filter: drop-shadow(-3px 3px 5px rgb(129, 110, 51));
 }
-body .about .about_info .about_title {
+@media (max-width: 499.98px) {
+  body main .about .about_info .myBtnAbout {
+    width: 60px;
+  }
+  body main .about .about_info .myBtnAbout:hover {
+    width: 55px;
+    cursor: pointer;
+  }
+}
+body main .about .about_info .modalAbout {
+  display: none;
+  position: fixed;
+  z-index: 19 !important;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body main .about .about_info .modalAbout .modal-contentAbout {
+  background-color: #F1E8DF;
+  border-radius: 30px;
+  border: 1px solid #F1E8DF;
+  width: 92vw;
+  height: 94vh;
+  overflow-x: hidden;
+  justify-items: center;
+}
+body main .about .about_info .modalAbout .modal-contentAbout .closeAb {
+  color: #A47155;
+  font-weight: 800;
+  padding: 3px 15px;
+  float: right;
+  background-color: rgba(1, 1, 0, 0);
+  z-index: 15 !important;
+  font-size: 28px;
+  align-self: anchor-center;
+  font-weight: bold;
+}
+body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout {
+  display: flex;
+  position: relative;
+  width: 94vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background-color: #F1E8DF;
+}
+body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout .title-p {
+  font-size: 25px;
+  color: #A47155;
+  text-align: center;
+  font-family: "ChelaOne";
+  margin: 1px;
+  padding-top: 2px;
+  padding-bottom: 15px;
+  filter: drop-shadow(1px 0.5px 1px rgb(10, 10, 8));
+}
+body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout .bold {
+  font-weight: 800;
+  font-size: 18px;
+}
+body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout .left-education {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  min-width: 40vw;
+  padding: 15px 30px 15px 30px;
+  color: #A47155;
+  border-radius: 0px;
+  justify-content: center;
+  padding: 1% 5% 1% 5%;
+}
+body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout .left-education .education-info {
+  padding: 0.1%;
+  box-shadow: 1px 1px 2px 1px #b3a293;
+  margin: 2%;
+  color: #A47155;
+  background-color: rgba(159, 208, 199, 0.3137254902);
+  font-family: "Chile";
+  border-style: double;
+  border-color: #B8E0D8;
+  text-align: center;
+}
+body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout .right-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 35vw;
+}
+body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout .right-work .availab {
+  padding: 1% 5% 1% 5%;
+  margin-bottom: 5%;
+  color: #A47155;
+  background-color: #F1E8DF;
+  box-shadow: 1px 1px 10px 1px #a78365;
+  font-family: "Chile";
+  border-style: double;
+  margin-bottom: 15px;
+  border-color: #F1E8DF;
+  text-align: center;
+}
+body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout .right-work .employment {
+  margin-bottom: 5%;
+  padding: 1% 5% 2% 5%;
+  color: #A47155;
+  background-color: #F1E8DF;
+  box-shadow: 1px 1px 10px 1px #a78365;
+  font-family: "Chile";
+  border-style: double;
+  border-color: #F1E8DF;
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  body main .about .about_info .modalAbout .modal-contentAbout .mySlidesAbout {
+    flex-direction: column;
+    border-radius: 3px;
+    width: 90vw;
+    border-radius: 4px;
+  }
+}
+@media (max-width: 767.98px) {
+  body main .about .about_info .modalAbout .modal-contentAbout {
+    border-radius: 3px;
+    width: 90vw;
+    height: 99vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+}
+body main .about .about_info .about_title {
   position: absolute;
   font-family: "ChelaOne";
   color: #F1E8DF;
@@ -504,14 +416,14 @@ body .about .about_info .about_title {
   rotate: 349deg;
   text-shadow: 3px 2px 3px rgb(77, 67, 54);
   filter: drop-shadow(3px 2px 3px rgb(77, 67, 54));
-  top: -36%;
+  bottom: 260px;
 }
-body .about .about_info .about_me {
+body main .about .about_info .about_me {
   position: absolute;
-  font-size: 18px;
+  font-size: 19px !important;
   align-self: anchor-center;
   justify-self: anchor-center;
-  padding: 14% 16% 1% 30%;
+  padding: 5% 16% 6% 31%;
   font-family: "ChelaOne";
   word-spacing: 0.1cm;
   justify-content: center;
@@ -519,7 +431,214 @@ body .about .about_info .about_me {
   rotate: 356deg;
   text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
-body .skills {
+@media (max-width: 767.98px) {
+  body main .about .about_info .about_me {
+    font-size: 15px !important;
+    padding: 9% 16% 5% 32%;
+  }
+}
+body main .about .about_info .myBtnAbout1 {
+  position: absolute;
+  background: none;
+  border: none;
+  padding-bottom: 25px;
+  left: 115px;
+  transition: width 2s;
+  z-index: 10;
+  filter: drop-shadow(-5px 2px 4px rgb(71, 63, 52));
+}
+body main .about .about_info .myBtnAbout1:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  width: 75px;
+  filter: drop-shadow(-3px 3px 5px rgb(129, 110, 51));
+}
+@media (max-width: 499.98px) {
+  body main .about .about_info .myBtnAbout1 {
+    width: 60px;
+  }
+  body main .about .about_info .myBtnAbout1:hover {
+    width: 55px;
+    cursor: pointer;
+  }
+}
+body main .about .about_info .modalAbout1 {
+  display: none;
+  position: fixed;
+  z-index: 19 !important;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 {
+  background-color: #F1E8DF;
+  border-radius: 30px;
+  border: 1px solid #F1E8DF;
+  width: 92vw;
+  height: 94vh;
+  overflow-x: hidden;
+  justify-items: center;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .closeAb1 {
+  color: #A47155;
+  font-weight: 800;
+  padding: 3px 15px;
+  float: right;
+  background-color: rgba(1, 1, 0, 0);
+  z-index: 15 !important;
+  font-size: 28px;
+  align-self: anchor-center;
+  font-weight: bold;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 {
+  display: flex;
+  position: relative;
+  width: 94vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background-color: #F1E8DF;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .title-p1 {
+  font-size: 25px;
+  color: #A47155;
+  text-align: center;
+  font-family: "ChelaOne";
+  margin: 1px;
+  padding-top: 2px;
+  padding-bottom: 15px;
+  filter: drop-shadow(1px 0.5px 1px rgb(10, 10, 8));
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .bold1 {
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "ChelaOne";
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .lang {
+  font-size: 16px;
+  font-weight: 800;
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-self: center;
+  font-family: "Chile";
+  padding: 10px 30px;
+  border-color: #f7f5f2;
+  border-style: dashed;
+  background-color: #F1E8DF;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .left-languages {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  min-width: 30vw;
+  padding: 15px 30px 15px 30px;
+  color: #A47155;
+  border-radius: 0px;
+  justify-content: center;
+  padding: 1% 5% 1% 5%;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .left-languages .languages-info {
+  color: #A47155;
+  text-align: center;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .left-languages .languages-info .lang_container {
+  text-align: start;
+  background-color: #F1E8DF;
+  padding: 15px 50px;
+  box-shadow: 0px 0px 10px 7px rgba(255, 255, 255, 0.462745098);
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .left-languages .languages-info .lang_container li {
+  font-family: "Chile";
+  list-style: square;
+  font-size: 16px;
+  padding: 1%;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8%;
+  min-width: 30vw;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill .title-personal {
+  font-size: 25px;
+  color: #A47155;
+  text-align: center;
+  font-family: "ChelaOne";
+  margin: 1px;
+  padding-top: 2px;
+  padding-bottom: 55px;
+  filter: drop-shadow(1px 0.5px 1px rgb(10, 10, 8));
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill .personal_skill_bg {
+  box-shadow: 0px 0px 10px 7px rgba(255, 255, 255, 0.462745098);
+  padding: 20px;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill .personal_skill_bg .personal_skill_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1%;
+  color: #A47155;
+  background-color: #F1E8DF;
+  font-family: "Chile";
+  border-style: double;
+  border-color: #F1E8DF;
+  text-align: start;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill .personal_skill_bg .personal_skill_container .personal_skill {
+  padding-right: 20px;
+  margin: 1px;
+  font-weight: 600;
+  font-size: 14px;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill .personal_skill_bg .personal_skill_container .responsive-ps {
+  display: flex;
+  flex-direction: row;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill .personal_skill_bg .personal_skill_container .responsive-ps li {
+  align-self: center;
+  margin: 4px;
+  filter: drop-shadow(1px 0.5px 1px rgb(102, 112, 112));
+  list-style: circle;
+  background-color: #B8E0D8;
+  border-radius: 60px;
+  color: #B8E0D8;
+  font-size: 16px;
+}
+body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill .personal_skill_bg .personal_skill_container .responsive-ps .empty {
+  background-color: rgb(228, 240, 239);
+  border-radius: 60px;
+  color: #B8E0D8;
+}
+@media (max-width: 449.98px) {
+  body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 .right-pers-skill .personal_skill_bg .personal_skill_container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767.98px) {
+  body main .about .about_info .modalAbout1 .modal-contentAbout1 .mySlidesAbout1 {
+    flex-direction: column;
+    border-radius: 3px;
+    width: 90vw;
+    border-radius: 4px;
+  }
+}
+@media (max-width: 767.98px) {
+  body main .about .about_info .modalAbout1 .modal-contentAbout1 {
+    border-radius: 3px;
+    width: 90vw;
+    height: 99vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+}
+body main .skills {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -529,8 +648,8 @@ body .skills {
   position: relative;
   flex-direction: column;
 }
-body .skills .skills-container {
-  gap: 0.5%;
+body main .skills .skills-container {
+  min-width: 90vw;
   display: flex;
   padding: 2%;
   opacity: 1;
@@ -540,104 +659,146 @@ body .skills .skills-container {
   justify-content: space-evenly;
   filter: drop-shadow(3px 2px 3px rgb(71, 63, 52));
 }
-body .skills .skills-container .skill:hover {
+body main .skills .skills-container .skill {
+  padding: 1%;
+}
+body main .skills .skills-container .skill:hover {
   cursor: pointer;
   filter: drop-shadow(2px 2px 1px rgb(255, 255, 255));
 }
-body .skills .front-end-skills {
+@media (max-width: 639.98px) {
+  body main .skills .skills-container .skill {
+    height: 70px;
+    width: 60px;
+  }
+}
+body main .skills .front-end-skills {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-content: center;
   flex-wrap: wrap;
-  padding: 2%;
+  padding: 0.6%;
   position: relative;
 }
-body .skills .front-end-skills .title-skills-f {
-  padding-left: 80px;
-  margin-bottom: 50px;
+body main .skills .front-end-skills .title-skills-f {
+  padding-left: 4%;
   position: relative;
-  height: 6vh;
-  width: 20vw;
+  height: 10vh;
+  width: 32%;
+  align-self: baseline;
 }
-body .skills .front-end-skills .title-skills-f .fe-bg {
+body main .skills .front-end-skills .title-skills-f .fe-bg {
   font-family: "ChelaOne";
   color: #A47155;
-  font-size: 28px;
-  padding: 8px;
+  font-size: 25px;
+  padding: 10px;
   margin-top: 1%;
   background-color: #F1E8DF;
   border-color: #A47155;
   border-style: solid;
   border-width: 0.3ch;
   border-radius: 32% 1% 73% 2%;
-  padding-left: 14px;
+  padding-left: 15%;
   padding-right: 58px;
 }
-body .skills .bg-skills {
+@media (max-width: 814.98px) {
+  body main .skills .front-end-skills .title-skills-f .fe-bg {
+    font-size: 15px !important;
+    width: 95%;
+  }
+}
+@media (max-width: 767.98px) {
+  body main .skills .front-end-skills .title-skills-f .fe-bg {
+    font-size: 16px !important;
+  }
+}
+body main .skills .bg-skills {
   align-self: center;
   filter: drop-shadow(11px -2px 7px rgb(71, 63, 52));
   position: relative;
-  padding: 2%;
+  opacity: 0.9;
   justify-items: center !important;
 }
-body .skills p {
-  position: absolute !important;
-  font-family: "ChelaOne";
-  color: #A47155;
-  font-size: 30px;
-  margin-top: 4%;
-  margin-right: 1.1%;
-  text-align: center;
+@media (max-width: 639.98px) {
+  body main .skills .bg-skills {
+    width: 100px;
+  }
 }
-body .skills .data-science-skills {
+body main .skills .data-science-skills {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   flex-wrap: wrap;
-  padding: 2%;
+  padding: 0.6%;
   position: relative;
 }
-body .skills .data-science-skills .title-skills-ds {
-  padding-left: 80px;
-  margin-bottom: 50px;
+body main .skills .data-science-skills .title-skills-ds {
+  padding-left: 4%;
   position: relative;
-  height: 6vh;
-  width: 20vw;
+  height: 10vh;
+  width: 32%;
 }
-body .skills .data-science-skills .title-skills-ds .ds-bg {
+body main .skills .data-science-skills .title-skills-ds .ds-bg {
   font-family: "ChelaOne";
   color: #A47155;
-  font-size: 28px;
-  padding: 8px;
+  font-size: 25px;
+  padding: 10px;
   margin-top: 1%;
   background-color: #F1E8DF;
   border-color: #A47155;
   border-style: solid;
   border-width: 0.3ch;
   border-radius: 2% 85% 3% 42%;
-  padding-left: 18px;
-  padding-right: 58px;
+  padding-left: 15%;
+  padding-right: 68px;
 }
-body .title-project {
+@media (max-width: 814.98px) {
+  body main .skills .data-science-skills .title-skills-ds .ds-bg {
+    font-size: 16px !important;
+    width: 95%;
+  }
+}
+@media (max-width: 1149.98px) {
+  body main .skills .skills-container {
+    gap: 0.53%;
+  }
+  body main .skills .fe-bg,
+  body main .skills .ds-bg {
+    font-size: 23px !important;
+  }
+}
+body main .title-project {
   display: flex;
   flex-direction: row;
   justify-content: left;
   flex-wrap: wrap;
   position: relative;
-  padding-left: 100px;
   margin-bottom: 50px;
 }
-body .title-project P {
+body main .title-project P {
   position: absolute;
   font-family: "ChelaOne";
   color: #A47155;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 1%;
   padding-left: 100px;
 }
-body .projects {
+@media (max-width: 767.98px) {
+  body main .title-project {
+    padding-left: 4vw !important;
+  }
+  body main .title-project img {
+    width: 220px;
+    height: 50px !important;
+  }
+  body main .title-project p {
+    margin-top: 0.5%;
+    padding-left: 50px;
+    font-size: 30px;
+  }
+}
+body main .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -646,20 +807,18 @@ body .projects {
   margin-bottom: 100px;
   min-height: 40vh;
 }
-body .projects .project,
-body .projects .project1 {
-  min-width: 31dvw;
-  min-height: 44dvh;
+body main .projects .project,
+body main .projects .project1 {
   margin: 20px;
   align-items: center;
 }
-body .projects .project .myBtn,
-body .projects .project1 .myBtn {
+body main .projects .project .myBtn,
+body main .projects .project1 .myBtn {
   color: #F5F5E2;
   display: block;
 }
-body .projects .project .myBtn:hover,
-body .projects .project1 .myBtn:hover {
+body main .projects .project .myBtn:hover,
+body main .projects .project1 .myBtn:hover {
   background-color: #F1E8DF;
   color: #8EA257;
   cursor: pointer;
@@ -668,17 +827,23 @@ body .projects .project1 .myBtn:hover {
   padding: 4% 0 0 4%;
   border-radius: 40px;
 }
-body .projects .project .active_img,
-body .projects .project1 .active_img {
+@media (max-width: 575.98px) {
+  body main .projects .project .myBtn,
+  body main .projects .project1 .myBtn {
+    width: 300px;
+  }
+}
+body main .projects .project .active_img,
+body main .projects .project1 .active_img {
   background-color: #a49477;
   color: #E4E1C7;
 }
-body .projects .project .active_img:hover,
-body .projects .project1 .active_img:hover {
+body main .projects .project .active_img:hover,
+body main .projects .project1 .active_img:hover {
   background-color: rgb(45, 22, 77) !important;
 }
-body .projects .project .modal,
-body .projects .project1 .modal {
+body main .projects .project .modal,
+body main .projects .project1 .modal {
   display: none;
   position: fixed;
   z-index: 14 !important;
@@ -691,8 +856,8 @@ body .projects .project1 .modal {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
 }
-body .projects .project .modal .modal-content,
-body .projects .project1 .modal .modal-content {
+body main .projects .project .modal .modal-content,
+body main .projects .project1 .modal .modal-content {
   background-color: #F1E8DF;
   margin: auto;
   padding: 6px;
@@ -703,8 +868,8 @@ body .projects .project1 .modal .modal-content {
   box-sizing: border-box;
   justify-items: center;
 }
-body .projects .project .modal .modal-content .close,
-body .projects .project1 .modal .modal-content .close {
+body main .projects .project .modal .modal-content .close,
+body main .projects .project1 .modal .modal-content .close {
   color: #A47155;
   float: right;
   background-color: rgba(1, 1, 0, 0);
@@ -713,36 +878,45 @@ body .projects .project1 .modal .modal-content .close {
   align-self: anchor-center !important;
   font-weight: bold;
 }
-body .projects .project .modal .modal-content .close:hover,
-body .projects .project .modal .modal-content .close :focus,
-body .projects .project1 .modal .modal-content .close:hover,
-body .projects .project1 .modal .modal-content .close :focus {
-  color: #fffbfb;
+body main .projects .project .modal .modal-content .close:hover,
+body main .projects .project .modal .modal-content .close :focus,
+body main .projects .project1 .modal .modal-content .close:hover,
+body main .projects .project1 .modal .modal-content .close :focus {
   text-decoration: none;
   cursor: pointer;
 }
-body .projects .project .modal .modal-content p,
-body .projects .project1 .modal .modal-content p {
+body main .projects .project .modal .modal-content .title-p,
+body main .projects .project1 .modal .modal-content .title-p {
+  font-size: 25px;
+  color: #A47155;
+  text-align: center;
+  font-size: 25px;
+  font-family: "ChelaOne";
+}
+body main .projects .project .modal .modal-content p,
+body main .projects .project1 .modal .modal-content p {
   color: #A47155;
   font-family: "Chile";
   margin: 5px;
+  padding: 5px;
+  justify-self: anchor-center;
 }
-body .projects .project .modal .modal-content .container,
-body .projects .project1 .modal .modal-content .container {
+body main .projects .project .modal .modal-content .container,
+body main .projects .project1 .modal .modal-content .container {
   position: relative;
   width: 74vw;
   align-items: center;
   border-radius: 40px;
   height: 80vh !important;
 }
-body .projects .project .modal .modal-content .container .mySlides,
-body .projects .project1 .modal .modal-content .container .mySlides {
+body main .projects .project .modal .modal-content .container .mySlides,
+body main .projects .project1 .modal .modal-content .container .mySlides {
   display: flex;
   border-radius: 30px;
   height: 56vh;
 }
-body .projects .project .modal .modal-content .container .mySlides .numbertext,
-body .projects .project1 .modal .modal-content .container .mySlides .numbertext {
+body main .projects .project .modal .modal-content .container .mySlides .numbertext,
+body main .projects .project1 .modal .modal-content .container .mySlides .numbertext {
   color: #A47155;
   font-size: 12px;
   position: absolute;
@@ -754,76 +928,153 @@ body .projects .project1 .modal .modal-content .container .mySlides .numbertext 
   background-color: #F1E8DF;
   border-radius: 90px 40px 90px 40px;
 }
-body .projects .project .modal .modal-content .container .mySlides .left-side,
-body .projects .project1 .modal .modal-content .container .mySlides .left-side {
+body main .projects .project .modal .modal-content .container .mySlides .left-side,
+body main .projects .project1 .modal .modal-content .container .mySlides .left-side {
   display: flex;
-  background-color: #F1E8DF;
   flex-direction: column;
   align-content: space-evenly !important;
-  max-width: 30vw;
-  padding: 5%;
+  max-width: 80vw;
+  padding-left: 3%;
   color: #F1E8DF;
-  margin: 3%;
   border-radius: 40px;
   justify-content: center;
 }
-body .projects .project .modal .modal-content .container .mySlides .left-side .title-p,
-body .projects .project1 .modal .modal-content .container .mySlides .left-side .title-p {
+body main .projects .project .modal .modal-content .container .mySlides .left-side .title-p,
+body main .projects .project1 .modal .modal-content .container .mySlides .left-side .title-p {
   font-size: 25px;
   color: #A47155;
   text-align: center;
-  font-family: "Chile";
+  font-size: 22px;
+  font-family: "ChelaOne";
 }
-body .projects .project .modal .modal-content .container .mySlides .left-side .info_pr,
-body .projects .project1 .modal .modal-content .container .mySlides .left-side .info_pr {
+body main .projects .project .modal .modal-content .container .mySlides .left-side .info_pr,
+body main .projects .project1 .modal .modal-content .container .mySlides .left-side .info_pr {
   color: #A47155;
   font-family: "Chile";
+  text-align: start;
+  padding: 20px 25px;
+  margin: 10% 4% 15%;
+  font-size: 16px;
+  word-spacing: 0.4cm;
+  word-wrap: break-word;
+  border-radius: 90px 90px 40px 40px;
+}
+body main .projects .project .modal .modal-content .container .mySlides .left-side .link-proj,
+body main .projects .project1 .modal .modal-content .container .mySlides .left-side .link-proj {
+  font-size: 16px;
+  background-color: #A47155;
+  padding: 3% 8%;
+  color: rgb(248, 248, 248);
+  border-radius: 90px 90px 40px 40px;
+  font-family: "ChelaOne";
+  width: -moz-fit-content;
+  width: fit-content;
   text-align: center;
 }
-body .projects .project .modal .modal-content .container .mySlides .left-side .link-proj,
-body .projects .project1 .modal .modal-content .container .mySlides .left-side .link-proj {
-  font-size: 20px;
-  background-color: #EBDF55;
-  padding-bottom: 5%;
-  color: #A47155;
-  font-family: "Chile";
-}
-body .projects .project .modal .modal-content .container .mySlides .right-side,
-body .projects .project1 .modal .modal-content .container .mySlides .right-side {
-  display: flex;
-  flex-direction: column;
+body main .projects .project .modal .modal-content .container .mySlides .right-side,
+body main .projects .project1 .modal .modal-content .container .mySlides .right-side {
+  display: grid;
   justify-content: center;
   align-items: center;
-  max-width: 42vw;
+  max-width: 32vw;
+  filter: drop-shadow(5px 5px 10px rgb(94, 86, 63));
 }
-body .projects .project .modal .modal-content .container .mySlides .right-side .demo,
-body .projects .project1 .modal .modal-content .container .mySlides .right-side .demo {
-  opacity: 0.7;
+body main .projects .project .modal .modal-content .container .mySlides .right-side .demo,
+body main .projects .project1 .modal .modal-content .container .mySlides .right-side .demo {
+  opacity: 0.8;
   max-height: 60vh;
   max-width: 30vw;
 }
-body .projects .project .modal .modal-content .container .mySlides .right-side .demo:hover,
-body .projects .project .modal .modal-content .container .mySlides .right-side .demo .active,
-body .projects .project1 .modal .modal-content .container .mySlides .right-side .demo:hover,
-body .projects .project1 .modal .modal-content .container .mySlides .right-side .demo .active {
+body main .projects .project .modal .modal-content .container .mySlides .right-side .demo:hover,
+body main .projects .project .modal .modal-content .container .mySlides .right-side .demo .active,
+body main .projects .project1 .modal .modal-content .container .mySlides .right-side .demo:hover,
+body main .projects .project1 .modal .modal-content .container .mySlides .right-side .demo .active {
   opacity: 1;
   cursor: pointer;
 }
-body .projects .project .modal .modal-content .container .mySlides .right-side .cursor,
-body .projects .project1 .modal .modal-content .container .mySlides .right-side .cursor {
-  cursor: pointer;
+body main .projects .project .modal .modal-content .container .mySlides .right-side-gallery,
+body main .projects .project1 .modal .modal-content .container .mySlides .right-side-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 46vh;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(5px 5px 10px rgb(94, 86, 63));
 }
-body .projects .project .modal .modal-content .container .prev,
-body .projects .project .modal .modal-content .container .next,
-body .projects .project1 .modal .modal-content .container .prev,
-body .projects .project1 .modal .modal-content .container .next {
+body main .projects .project .modal .modal-content .container .mySlides .right-side-gallery .demo,
+body main .projects .project1 .modal .modal-content .container .mySlides .right-side-gallery .demo {
+  opacity: 0.7;
+  max-height: 35vh;
+  max-width: 25vw;
+  padding: 2%;
+}
+body main .projects .project .modal .modal-content .container .mySlides .right-side-gallery .demo:hover,
+body main .projects .project .modal .modal-content .container .mySlides .right-side-gallery .demo .active,
+body main .projects .project1 .modal .modal-content .container .mySlides .right-side-gallery .demo:hover,
+body main .projects .project1 .modal .modal-content .container .mySlides .right-side-gallery .demo .active {
+  opacity: 1;
+  cursor: pointer;
+  scale: 40deg;
+}
+body main .projects .project .modal .modal-content .container .mySlides .project-tech .tech_name,
+body main .projects .project1 .modal .modal-content .container .mySlides .project-tech .tech_name {
+  font-size: 16px;
+  font-weight: 800;
+  justify-self: center;
+  font-family: "ChelaOne";
+  padding: 10px 30px;
+}
+body main .projects .project .modal .modal-content .container .mySlides .project-tech .proj_overv,
+body main .projects .project1 .modal .modal-content .container .mySlides .project-tech .proj_overv {
+  font-size: 17px;
+  justify-self: start;
+  font-family: "Chile";
+  padding: 10px 28px 20px;
+}
+body main .projects .project .modal .modal-content .container .mySlides .project-tech .tech_container,
+body main .projects .project1 .modal .modal-content .container .mySlides .project-tech .tech_container {
+  color: #A47155;
+  text-align: center;
+  padding: 10px;
+  max-width: 60vw;
+}
+body main .projects .project .modal .modal-content .container .mySlides .project-tech .tech_container .tech_lang,
+body main .projects .project1 .modal .modal-content .container .mySlides .project-tech .tech_container .tech_lang {
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F1E8DF;
+  padding: 1px 50px;
+}
+body main .projects .project .modal .modal-content .container .mySlides .project-tech .tech_container .tech_lang li,
+body main .projects .project1 .modal .modal-content .container .mySlides .project-tech .tech_container .tech_lang li {
+  font-family: "Chile";
+  list-style: square;
+  font-size: 17px;
+  padding: 2%;
+}
+body main .projects .project .modal .modal-content .container .mySlides .project-tech .title-p1,
+body main .projects .project1 .modal .modal-content .container .mySlides .project-tech .title-p1 {
+  font-size: 25px;
+  color: #A47155;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 22px;
+  font-family: "ChelaOne";
+}
+body main .projects .project .modal .modal-content .container .prev,
+body main .projects .project .modal .modal-content .container .next,
+body main .projects .project1 .modal .modal-content .container .prev,
+body main .projects .project1 .modal .modal-content .container .next {
   cursor: pointer;
   position: absolute;
   top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: #A47155;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -832,68 +1083,77 @@ body .projects .project1 .modal .modal-content .container .next {
   -webkit-user-select: none;
   padding: 20px 14px 20px 26px;
 }
-body .projects .project .modal .modal-content .container .prev:hover,
-body .projects .project .modal .modal-content .container .next:hover,
-body .projects .project1 .modal .modal-content .container .prev:hover,
-body .projects .project1 .modal .modal-content .container .next:hover {
+body main .projects .project .modal .modal-content .container .prev:hover,
+body main .projects .project .modal .modal-content .container .next:hover,
+body main .projects .project1 .modal .modal-content .container .prev:hover,
+body main .projects .project1 .modal .modal-content .container .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 16;
 }
-body .projects .project .modal .modal-content .container .next,
-body .projects .project1 .modal .modal-content .container .next {
+body main .projects .project .modal .modal-content .container .next,
+body main .projects .project1 .modal .modal-content .container .next {
   right: 0;
   padding: 20px 14px 20px 26px;
   border-radius: 3px 0 0 3px;
 }
-body .projects .project .modal .modal-content .container .caption-container #caption,
-body .projects .project1 .modal .modal-content .container .caption-container #caption {
+body main .projects .project .modal .modal-content .container .caption-container #caption,
+body main .projects .project1 .modal .modal-content .container .caption-container #caption {
   text-align: center;
-  background-color: #A47155;
-  font-size: 26px;
-  padding: 5px 10px !important;
+  font-size: 18px;
+  padding: 1px 10px !important;
+  font-family: "ChelaOne";
   margin: 10px 20px !important;
-  color: #F1E8DF;
+  color: #A47155;
+  border-style: double;
+  border-color: #A47155;
   border-radius: 90px 40px 90px 40px;
 }
-body .projects .project .modal .modal-content .container .row,
-body .projects .project1 .modal .modal-content .container .row {
+body main .projects .project .modal .modal-content .container .row,
+body main .projects .project1 .modal .modal-content .container .row {
   display: flex;
-  background-color: #A47155;
   flex-wrap: nowrap;
   padding: 5px 20px !important;
   margin-top: 10px;
   box-sizing: border-box;
-  height: 15vh;
+  height: 13vh;
   justify-content: space-evenly;
   align-items: stretch;
   align-self: center !important;
   flex-direction: row;
   border-radius: 20px;
 }
-body .projects .project .modal .modal-content .container .row .column,
-body .projects .project1 .modal .modal-content .container .row .column {
+body main .projects .project .modal .modal-content .container .row .column,
+body main .projects .project1 .modal .modal-content .container .row .column {
   float: left;
   align-items: center;
   display: flex;
   gap: 10px;
 }
-body .projects .project .modal .modal-content .container .row .column .img_bottom,
-body .projects .project1 .modal .modal-content .container .row .column .img_bottom {
-  opacity: 0.5;
+body main .projects .project .modal .modal-content .container .row .column .img_bottom,
+body main .projects .project1 .modal .modal-content .container .row .column .img_bottom {
+  opacity: 0.7;
   max-height: 10vh;
   max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: anchor-center;
+  filter: drop-shadow(5px 5px 10px rgb(38, 36, 30));
 }
-body .projects .project .modal .modal-content .container .row .column .img_bottom:hover,
-body .projects .project .modal .modal-content .container .row .column .img_bottom .active,
-body .projects .project1 .modal .modal-content .container .row .column .img_bottom:hover,
-body .projects .project1 .modal .modal-content .container .row .column .img_bottom .active {
+body main .projects .project .modal .modal-content .container .row .column .img_bottom:hover,
+body main .projects .project .modal .modal-content .container .row .column .img_bottom .active,
+body main .projects .project1 .modal .modal-content .container .row .column .img_bottom:hover,
+body main .projects .project1 .modal .modal-content .container .row .column .img_bottom .active {
   opacity: 1;
   cursor: pointer;
+  scale: 5deg;
 }
-body .projects .project .modal .overflh body,
-body .projects .project1 .modal .overflh body {
+body main .projects .project .modal .modal-content .container .row .column .img_bottom:hover,
+body main .projects .project1 .modal .modal-content .container .row .column .img_bottom:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  width: 215px;
+}
+body main .projects .project .modal .overflh body,
+body main .projects .project1 .modal .overflh body {
   overflow: hidden;
 }
 body footer .footer-container {
@@ -903,31 +1163,74 @@ body footer .footer-container {
 }
 body footer .footer-container .contact-info {
   display: flex;
+  margin-bottom: 20px;
 }
 body footer .footer-container .contact-info .cont-title-img {
   filter: drop-shadow(5px 10px 5px rgb(94, 86, 63));
+  rotate: 348deg;
+  padding-top: 5%;
+}
+@media (max-width: 575.98px) {
+  body footer .footer-container .contact-info .cont-title-img {
+    width: 25dvw;
+    height: 220px;
+  }
+}
+@media (max-width: 1023.98px) {
+  body footer .footer-container .contact-info .cont-title-img {
+    rotate: 348deg;
+  }
 }
 body footer .footer-container .contact-info .cont-title {
   font-size: 70px;
+  padding-left: 22px;
   font-family: "ChelaOne";
   color: #F1E8DF;
   font-weight: 500;
   filter: drop-shadow(5px 10px 5px rgb(95, 90, 84));
-  rotate: -11deg;
+  rotate: 344deg;
+}
+@media (max-width: 575.98px) {
+  body footer .footer-container .contact-info .cont-title {
+    font-size: 12vw;
+  }
 }
 body footer .footer-container .contact-info .social {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-top: 3%;
   justify-content: flex-end;
-  padding-bottom: 50px;
-  margin-left: -25%;
   filter: drop-shadow(3px 1px 5px rgb(80, 75, 59));
 }
 body footer .footer-container .contact-info .social .sn:hover {
   padding: 1%;
   filter: drop-shadow(5px -2px 7px rgb(94, 86, 63));
+}
+body footer .footer-container .contact-info .social .sn .soc {
+  width: 70px;
+}
+@media (max-width: 767.98px) {
+  body footer .footer-container .contact-info .social .sn .soc {
+    width: 50px;
+  }
+}
+@media (max-width: 479.98px) {
+  body footer .footer-container .contact-info .social .sn {
+    margin-left: -50% !important;
+  }
+}
+@media (max-width: 1023.98px) {
+  body footer .footer-container .contact-info .social {
+    margin-top: 30%;
+    margin-right: 10% !important;
+  }
+}
+@media (max-width: 1023.98px) {
+  body footer .footer-container .contact-info {
+    margin-bottom: 20px;
+    align-self: flex-start;
+    margin: 0 0 4% 15%;
+  }
 }
 body footer .footer-container .contact-news {
   display: flex;
@@ -935,10 +1238,16 @@ body footer .footer-container .contact-news {
   position: relative;
   padding-bottom: 30px;
 }
+@media (max-width: 575.98px) {
+  body footer .footer-container .contact-news .newsl-bg {
+    width: 84vw !important;
+    justify-self: baseline;
+  }
+}
 body footer .footer-container .contact-news form {
   position: absolute;
-  width: 400px;
-  height: 290px;
+  height: 230px;
+  padding-left: 2dvw;
 }
 body footer .footer-container .contact-news form label {
   display: flex;
@@ -948,16 +1257,16 @@ body footer .footer-container .contact-news form label {
   font-family: "ChelaOne";
   color: #A47155;
   border: none;
-  font-size: 25px;
+  font-size: 21px;
 }
 body footer .footer-container .contact-news form label textarea,
 body footer .footer-container .contact-news form label input {
   display: flex;
   flex-direction: column;
   text-align: start;
-  width: 260px;
-  margin-left: 10%;
-  margin-bottom: 5%;
+  width: 210px;
+  margin-left: 28%;
+  margin-bottom: 1%;
   border: 0 !important;
   height: 35px;
   overflow-wrap: normal;
@@ -968,9 +1277,8 @@ body footer .footer-container .contact-news form label input {
 body footer .footer-container .contact-news form label textarea:hover, body footer .footer-container .contact-news form label textarea:focus,
 body footer .footer-container .contact-news form label input:hover,
 body footer .footer-container .contact-news form label input:focus {
-  width: 260px;
+  width: 180px;
   border-style: none;
-  background-color: transparent;
   border: 0;
 }
 body footer .footer-container .contact-news form label textarea:focus-visible,
@@ -978,8 +1286,8 @@ body footer .footer-container .contact-news form label input:focus-visible {
   outline: 0;
 }
 body footer .footer-container .contact-news form label #ask {
-  max-width: 270px;
-  height: 80px;
+  max-width: 260px;
+  height: 90px;
   overflow-y: auto;
   resize: vertical;
   margin-top: 2%;
@@ -987,6 +1295,39 @@ body footer .footer-container .contact-news form label #ask {
   word-wrap: break-word;
   white-space: pre-wrap;
   box-sizing: border-box;
+}
+@media (max-width: 479.98px) {
+  body footer .footer-container .contact-news form label {
+    width: 141px;
+    height: 39px;
+    font-size: 14px !important;
+    padding-left: 0px;
+  }
+  body footer .footer-container .contact-news form label input {
+    margin-left: 0;
+    width: 113px;
+    height: 40px !important;
+  }
+  body footer .footer-container .contact-news form .ask {
+    height: 80px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  body footer .footer-container .contact-news form label {
+    width: 150px;
+    height: 45px;
+    font-size: 14px !important;
+    padding-left: 10px;
+  }
+  body footer .footer-container .contact-news form label textarea,
+  body footer .footer-container .contact-news form label input {
+    margin-left: 0;
+    width: 176px;
+    height: 61px !important;
+  }
+  body footer .footer-container .contact-news form .ask {
+    height: 80px !important;
+  }
 }
 body footer .footer-container .contact-news form .subm {
   display: flex;
@@ -1010,41 +1351,16 @@ body footer .footer-container .contact-news form .subm:hover {
   color: #B8E0D8;
   border-color: #B8E0D8;
 }
-@media (max-width: 767.98px) {
-  body footer .footer-container {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10% !important;
-  }
-  body footer .footer-container .contact-info {
-    margin-bottom: 20px;
-    align-self: flex-start;
-    margin: 0 0 4% 15%;
-  }
-  body footer .footer-container .contact-info .cont-title-img {
-    height: 250px;
-    rotate: 348deg;
-  }
-  body footer .footer-container .contact-info .cont-title {
-    font-size: 60px;
-    margin-top: 12%;
-    rotate: 342deg;
-  }
-  body footer .footer-container .contact-info .social {
-    margin-top: 10%;
-    margin-left: 15% !important;
-  }
-  body footer .footer-container .contact-news img {
-    max-width: 550px;
-  }
+@media (max-width: 575.98px) {
   body footer .footer-container .contact-news form {
-    max-height: 220px;
+    height: 175px;
+    padding-left: 1dvw !important;
+    width: 200px;
   }
-  body footer .footer-container .contact-news form label {
-    font-size: 18px;
-  }
-  body footer .footer-container .contact-news form label input {
-    margin-bottom: 2%;
+}
+@media (max-width: 1023.98px) {
+  body footer .footer-container .contact-news img {
+    max-width: 50vw !important;
   }
 }
 @media (max-width: 1023.98px) {
@@ -1053,71 +1369,17 @@ body footer .footer-container .contact-news form .subm:hover {
     align-items: center;
     margin-bottom: 10% !important;
   }
-  body footer .footer-container .contact-info {
-    margin-bottom: 20px;
-    align-self: flex-start;
-    margin: 0 0 4% 15%;
-  }
-  body footer .footer-container .contact-info .cont-title-img {
-    height: 250px;
-    rotate: 348deg;
-  }
-  body footer .footer-container .contact-info .cont-title {
-    font-size: 60px;
-    margin-top: 12%;
-    rotate: 342deg;
-  }
-  body footer .footer-container .contact-info .social {
-    margin-top: 10%;
-    margin-left: 15% !important;
-  }
-  body footer .footer-container .contact-news img {
-    max-width: 550px;
-  }
-  body footer .footer-container .contact-news form {
-    max-height: 220px;
-  }
-  body footer .footer-container .contact-news form label {
-    font-size: 18px;
-  }
-  body footer .footer-container .contact-news form label input {
-    margin-bottom: 2%;
-  }
 }
 @media (max-width: 1149.98px) {
-  body footer .footer-container {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10% !important;
-  }
-  body footer .footer-container .contact-info {
-    margin-bottom: 20px;
-    align-self: flex-start;
-    margin: 0 0 4% 15%;
-  }
-  body footer .footer-container .contact-info .cont-title-img {
-    height: 250px;
-    rotate: 348deg;
-  }
-  body footer .footer-container .contact-info .cont-title {
-    font-size: 60px;
-    margin-top: 12%;
-    rotate: 342deg;
-  }
-  body footer .footer-container .contact-info .social {
+  body footer .footer-container .cont-title {
+    font-size: 62px;
     margin-top: 10%;
-    margin-left: 15% !important;
+  }
+  body footer .footer-container .social {
+    margin-top: 28%;
+    margin-left: -8% !important;
   }
   body footer .footer-container .contact-news img {
-    max-width: 550px;
-  }
-  body footer .footer-container .contact-news form {
-    max-height: 220px;
-  }
-  body footer .footer-container .contact-news form label {
-    font-size: 18px;
-  }
-  body footer .footer-container .contact-news form label input {
-    margin-bottom: 2%;
+    max-width: 500px !important;
   }
 }/*# sourceMappingURL=main.css.map */
